@@ -5,7 +5,6 @@ A containerized polyglot log generator that runs multiple language services in p
 - Go
 - Java
 - Python
-- Rust
 - Node
 
 ## Logging libraries used
@@ -13,7 +12,6 @@ A containerized polyglot log generator that runs multiple language services in p
 - Go: `logrus`
 - Java: `SLF4J` + `Logback`
 - Python: built-in `logging`
-- Rust: `tracing` + `tracing-subscriber`
 - Node: `winston`
 
 Each service generates random logs with:
