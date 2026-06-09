@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        service: [go, java, python, rust, node]
+        service: [go, java, python, node]
 
     steps:
       - uses: actions/checkout@v4
